@@ -25,6 +25,7 @@ repositories {
 
 
 dependencies {
+	compile('com.auth0:java-jwt:3.4.0')
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
